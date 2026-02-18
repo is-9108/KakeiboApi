@@ -42,8 +42,8 @@ ScaffoldingReadMe.txt
 .idea/
 *.sln.iml
 
-# IDE - VS Code (optional: uncomment if you want to ignore)
-# .vscode/
+# IDE - VS Code
+.vscode/
 
 # MSBuild
 *.binlog
