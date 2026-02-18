@@ -1,4 +1,4 @@
-﻿namespace Kakeibo.domian
+﻿namespace Kakeibo.Domain.Entity
 {
     public class Transactions
     {
@@ -31,8 +31,10 @@
         /// </summary>
         public string Memo { get; set; }
         /// <summary>
-        /// Blob Strageに保存された画像のURL
+        /// Blob Storageに保存された画像のURL
         /// </summary>
         public string ImageUrl { get; set; }
+
+        public Categories Category { get; set; }
     }
 }

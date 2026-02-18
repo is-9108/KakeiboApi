@@ -1,4 +1,4 @@
-﻿namespace Kakeibo.domian
+﻿namespace Kakeibo.Domain.Entity
 {
     public class Categories
     {
@@ -10,5 +10,7 @@
         /// カテゴリ名
         /// </summary>
         public string Name { get; set; }
+
+        public Transactions transactions { get; set; }
     }
 }
