@@ -29,11 +29,11 @@
         /// <summary>
         /// メモ
         /// </summary>
-        public string Memo { get; set; }
+        public string? Memo { get; set; }
         /// <summary>
         /// Blob Storageに保存された画像のURL
         /// </summary>
-        public string ImageUrl { get; set; }
+        public string? ImageUrl { get; set; }
 
         public Categories Category { get; set; }
     }
